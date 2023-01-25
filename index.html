@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@300&family=Jacques+Francois&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./images/logo.png" type="image/x-icon">
+    <title>Engin Yazılım</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="navbar__brand">
+                <img src="./images/logo.png" alt="logo" class="brand__logo">
+                <span class="brand__text">ngin Yazılım</span>
+            </div>
+            <div class="navbar__menu">
+                <ul class="menu__ul">
+                    <li><a href="#home">Ana Sayfa</a></li>
+                    <li><a href="#projects">Projeler</a></li>
+                    <li><a href="#ytContent">İçerik</a></li>
+                    <li><a href="#contact">İletişim</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="home" class="founder">
+            <div class="founder__content">
+                <img src="./images/vesikalık.png" alt="engininsel" class="founder__logo">
+                <div class="founder__title">
+                    <span class="founder__title__t">Engin İnsel</span>
+                    <span class="founder__title__exp">Computer Engineer / Founder of Engin Yazılım</span>
+                </div>
+            </div>
+            <div class="founder__founderMedia">
+                <a href="https://www.linkedin.com/in/engininsel/" target="_blank"><img src="./images/linkedin.svg" alt="linkedin"></a>
+                <a href="https://github.com/enqinsel" target="_blank"><img src="./images/github.svg" alt="github"></a>
+                <a href="https://medium.com/@enqinsel" target="_blank"><img src="./images/medium.svg" alt="medium"></a>
+                <a href="https://twitter.com/enqinsel" target="_blank"><img src="./images/twitter.svg" alt="twitter"></a>
+                <a href="https://www.youtube.com/@enginyazilim" target="_blank"><img src="./images/youtube.svg" alt="youtube"></a>
+                <a href="https://www.youtube.com/@EnginINSEL" target="_blank"><img src="./images/yt.svg" alt="youtube"></a>
+            </div>
+        </div>
+        <div id="projects" class="projects">
+            <div class="projects__title">
+                <span>Projeler</span>
+            </div>
+            <div class="projects__content">
+                <div class="content__project">
+                    <h2>English Api</h2>
+                    <img class="project__image" src="./images/project1.png">
+                    <div class="links">
+                        <a href="https://github.com/Engin-Yazilim-Youtube/englishChallenge2023" target="_blank">Kod</a>
+                        <a href="https://english-challenge-new-year.netlify.app/" target="_blank">Live</a>
+                    </div>
+                </div>
+                <div class="content__project">
+                    <h2>Front-End Mentor Challenge</h2>
+                    <img class="project__image" src="./images/project2.png">
+                    <div class="links">
+                        <a href="https://github.com/Engin-Yazilim-Youtube/front-end-mentor-card-component" target="_blank">Kod</a>
+                        <a href="https://front-end-mentor-card-component.netlify.app/" target="_blank">Live</a>
+                    </div>
+                </div>
+                <div class="content__project ">
+                    <h2>User Component</h2>
+                    <img class="project__image" src="./images/project3.png">
+                    <div class="links">
+                        <a href="https://github.com/Engin-Yazilim-Youtube/Users-component-challenge" target="_blank">Kod</a>
+                        <a href="https://users-component-challenge.netlify.app/" target="_blank">Live</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="ytContent" class="ytContent">
+            <div class="ytContent__title">
+                <span>İçerik</span>
+            </div>
+            <div class="ytContent__content">
+                <div class="ytVideo">
+                    <h2>VUE</h2>
+                    <iframe src="https://www.youtube.com/embed/-yB24fbFPWk" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <span>Vue.js Playlist</span>
+                </div>
+                <div class="ytVideo">
+                    <h2>CSS</h2>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/3qulsF3l7tE"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <span>CSS ve Bootstrap</span>
+                </div>
+                <div class="ytVideo">
+                    <h2>Shorts</h2>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/vU_PsbAVt2w"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <span>Faydalı Shorts Videolar</span>
+                </div>
+            </div>
+        </div>
+        <div id="contact" class="contact">
+            <div class="contact__title">
+                <span>Bana Yaz</span>
+            </div>
+            <div class="contact__content">
+                <form action="https://formsubmit.co/engocan.gs97@gmail.com" method="POST" id="usrform">
+                    <label for="firstName">Adı:</label><br>
+                    <input type="text" id="firstName" name="firstName" required><br>
+
+                    <label for="lastName">Soyadı:</label><br>
+                    <input type="text" id="lastName" name="lastName" required>
+
+                    <label for="message">Mesaj:</label><br>
+                    <textarea name="comment" id="message" form="usrform" placeholder="Mesajını gir..."
+                        required></textarea>
+
+                    <button type="submit" class="btn__submit">Gönder</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <button onclick="topFunction()" id="upBtn"><img src="./images/up.svg"></button>
+    <script>
+        let mybutton = document.getElementById("upBtn");
+
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+
+</html>
